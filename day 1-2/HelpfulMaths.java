@@ -10,14 +10,13 @@ public class HelpfulMaths {
             nums[i] = Integer.parseInt(parts[i]);
         }
         Arrays.sort(nums);
-        StringBuilder result = new StringBuilder();
+        String result = "";
         for (int i = 0; i < nums.length; i++) {
-            result.append(nums[i]);
+            result += nums[i];
             if (i != nums.length - 1) {
-                result.append("+");
+                result += "+";
             }
         }
-
         System.out.println(result.toString());
     }
 }
