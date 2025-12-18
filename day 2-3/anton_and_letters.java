@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class anton_and_letters {
     public static void main(String[] args) {
